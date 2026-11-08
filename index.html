@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudando listas</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Lista de alimentos</h1> 
+  <button id="ordenarCrescente" onclick="ordenarCrescente()">Ordenar A->Z</button>
+  <button id="ordenarDecrescente" onclick="ordenarDecrescente()">Ordenar Z->A</button>
+  
+  <br><br>
+  <input type="text" id="filtro" placeholder="Filtrar alimentos..." oninput="filtrarAlimentos()">
+  <ul id="lista-alimentos"></ul>
+</body>
+</html>
